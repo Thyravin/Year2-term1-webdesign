@@ -1,0 +1,105 @@
+<div class="page">
+
+    <header class="header">
+
+        <div class="header-left">
+            <button class="menu-btn"></button>
+            <h2 class="header-title"></h2>
+        </div>
+
+        <nav class="nav-tabs">
+            <a class="nav-tab"></a>
+            <a class="nav-tab"></a>
+            <a class="nav-tab"></a>
+            <a class="nav-tab"></a>
+        </nav>
+
+        <div class="header-right">
+            <button class="settings-btn"></button>
+            <button class="apps-btn"></button>
+            <img class="user-avatar">
+        </div>
+
+    </header>
+
+    <main class="main">
+
+        <section class="banner">
+            <div class="banner-top">
+                <button class="customize-btn"></button>
+            </div>
+            <div class="banner-bottom">
+                <h1 class="banner-title"></h1>
+                <button class="info-btn"></button>
+            </div>
+        </section>
+
+        <div class="content">
+
+            <aside class="sidebar">
+
+                <section class="meet-card">
+                    <div class="meet-header">
+                        <div class="meet-brand">
+                            <img class="meet-logo">
+                            <span class="meet-label"></span>
+                        </div>
+                        <button class="card-menu"></button>
+                    </div>
+                    <button class="generate-link-btn"></button>
+                </section>
+
+                <section class="class-code-card">
+                    <div class="class-code-header">
+                        <p class="class-code-label"></p>
+                        <button class="card-menu"></button>
+                    </div>
+                    <div class="class-code-value">
+                        <h3 class="class-code"></h3>
+                        <button class="expand-btn"></button>
+                    </div>
+                </section>
+
+                <section class="upcoming-card">
+                    <h3 class="upcoming-title"></h3>
+                    <ul class="upcoming-list">
+                        <li class="upcoming-item">
+                            <p class="due-date"></p>
+                            <p class="due-task"></p>
+                        </li>
+                        <li class="upcoming-item">
+                            <p class="due-date"></p>
+                            <p class="due-task"></p>
+                        </li>
+                    </ul>
+                    <a class="view-all"></a>
+                </section>
+
+            </aside>
+
+            <section class="feed">
+
+                <div class="announce-box">
+                    <img class="announce-avatar">
+                    <input class="announce-input">
+                    <button class="repost-btn"></button>
+                </div>
+
+                <ul class="post-list">
+                    <li class="post-item">
+                        <span class="post-icon"></span>
+                        <div class="post-text">
+                            <p class="post-title"></p>
+                            <small class="post-date"></small>
+                        </div>
+                        <button class="post-menu"></button>
+                    </li>
+                </ul>
+
+            </section>
+
+        </div>
+
+    </main>
+
+</div>
