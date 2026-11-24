@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 3: Responsiveness with Flex Layout</title>
+    <style>
+        * { box-sizing: border-box; }
+        body { margin: 0; font-family: Arial, sans-serif; }
+
+       
+        .container {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header, footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 15px;
+            font-size: 16px;
+        }
+
+        .main {
+            display: flex;
+            flex-direction: column;   
+            gap: 15px;
+            padding: 15px;
+            flex: 1;                  
+        }
+        .content { 
+            background: #f4f4f4;
+            padding: 20px; 
+        }
+        .sidebar { 
+            background: #ddd;   
+            padding: 20px; 
+        }
+       
+        @media (min-width: 600px) {
+            header, footer {
+                padding: 25px;
+                font-size: 20px;
+            }  
+            .main {
+                flex-direction: row; }     
+            .content {
+                flex: 1; }
+            .sidebar { 
+                flex: 1; }
+        }
+
+       
+        @media (min-width: 900px) {
+            header, footer {
+                padding: 40px; 
+                font-size: 26px; }  
+
+            .content {
+                flex: 4; }     
+            .sidebar { 
+                flex: 1; }    
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>Responsive Header</header>
+
+        <div class="main">
+            <section class="content">Main Content</section>
+            <aside class="sidebar">Sidebar</aside>
+        </div>
+
+        <footer>Footer</footer>
+    </div>
+
+</body>
+</html>

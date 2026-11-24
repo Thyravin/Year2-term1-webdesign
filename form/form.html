@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Create Account</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="card">
+    <h1>Create Account</h1>
+
+    <form action="#" method="post">
+      <div>
+        <label for="first">First name *</label>
+        <input type="text" id="first" placeholder="enter your first name" required>
+      </div>
+      <div>
+        <label for="last">Last name</label>
+        <input type="text" id="last" placeholder="enter your last name">
+      </div>
+
+      <div class="full">
+        <label for="email">Email *</label>
+        <input type="email" id="email" placeholder="enter your email" required>
+      </div>
+
+      <div>
+        <label for="pass">Password *</label>
+        <input type="password" id="pass" placeholder="enter your password" required>
+      </div>
+      <div>
+        <label for="confirm">Confirm Password *</label>
+        <input type="password" id="confirm" placeholder="enter your password again" required>
+      </div>
+
+      <div>
+        <span class="label">Gender:</span>
+        <div class="options">
+          <label><input type="radio" name="gender" value="male"> Male</label>
+          <label><input type="radio" name="gender" value="female"> Female</label>
+        </div>
+      </div>
+      <div>
+        <span class="label">Hobbies</span>
+        <div class="options">
+          <label><input type="checkbox" name="hobby" value="music"> Music</label>
+          <label><input type="checkbox" name="hobby" value="sports"> Sports</label>
+          <label><input type="checkbox" name="hobby" value="travel"> Travel</label>
+          <label><input type="checkbox" name="hobby" value="movies"> Movies</label>
+        </div>
+      </div>
+
+      <div>
+        <label for="source">Source of Income</label>
+        <select id="source">
+          <option>Employed</option>
+          <option>Self-employed</option>
+          <option>Student</option>
+          <option>Other</option>
+        </select>
+      </div>
+      <div>
+        <label for="income">Income</label>
+        <div class="range-row">
+          <input type="range" id="income" min="0" max="100" value="20">
+          <span class="badge" id="incomeValue">20K</span>
+        </div>
+      </div>
+
+      <div>
+        <label for="photo">Upload Profile Picture</label>
+        <input type="file" id="photo">
+      </div>
+      <div>
+        <label for="age">Age</label>
+        <input type="number" id="age" value="18" min="1">
+      </div>
+
+      <div class="full">
+        <label for="bio">Bio</label>
+        <textarea id="bio"></textarea>
+      </div>
+
+      <div class="full actions">
+        <button type="submit">Create</button>
+      </div>
+    </form>
+  </div>
+
+</body>
+</html>
